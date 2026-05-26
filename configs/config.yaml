@@ -1,0 +1,55 @@
+# House Price Predictor - Configuration File
+
+# Project Settings
+project:
+  name: "House Price Predictor"
+  description: "ML project for predicting house prices in Pakistan"
+  author: "Hasnat Khan"
+  version: "1.0.0"
+
+# Data Configuration
+data:
+  raw_path: "data/raw/"
+  processed_path: "data/processed/"
+  test_size: 0.2
+  random_state: 42
+
+# Feature Engineering
+features:
+  scaling_method: "standard"
+  outlier_detection: "iqr"
+  handle_missing: true
+  missing_strategy: "mean"
+
+# Model Configuration
+models:
+  train_all: true
+  cross_validation_folds: 5
+  
+  linear_regression:
+    fit_intercept: true
+  
+  ridge:
+    alpha: 1.0
+  
+  lasso:
+    alpha: 0.1
+  
+  random_forest:
+    n_estimators: 100
+    max_depth: 10
+  
+  gradient_boosting:
+    n_estimators: 100
+    learning_rate: 0.1
+  
+  xgboost:
+    n_estimators: 100
+    learning_rate: 0.1
+
+# Output Configuration
+output:
+  models_dir: "models/"
+  results_dir: "reports/"
+  figures_dir: "reports/figures/"
+  logs_dir: "logs/"
