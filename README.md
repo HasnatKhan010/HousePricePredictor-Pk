@@ -80,7 +80,7 @@ HousePricePredictor-Pk/
 │   │   └── visualize.py              # Plotting functions
 │   └── utils/
 │       ├── __init__.py
-│       └── helpers.py                # Helper functions
+���       └── helpers.py                # Helper functions
 │
 ├── configs/
 │   └── config.yaml                   # Project configuration
@@ -255,12 +255,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Hasnat Khan**
 - GitHub: [@HasnatKhan010](https://github.com/HasnatKhan010)
-- University: FAST-NUCES
-- Student ID: SP24-BCS-039
 
 ## 🙏 Acknowledgments
 
-- FAST-NUCES for educational support
 - Open-source ML community
 - Scikit-learn, XGBoost, and other libraries used
 
