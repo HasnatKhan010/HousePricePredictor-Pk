@@ -1,0 +1,53 @@
+# House Price Predictor Configuration File
+
+# Data Settings
+data:
+  raw_path: "data/raw/"
+  processed_path: "data/processed/"
+  dataset_name: "zameen_islamabad.csv"
+
+# Preprocessing Settings
+preprocessing:
+  test_size: 0.2
+  random_state: 42
+  missing_value_strategy: "median"
+  outlier_detection_method: "iqr"
+  normalize_features: true
+
+# Model Settings
+model:
+  algorithms:
+    - CatBoost
+    - XGBoost
+    - RandomForest
+    - LinearRegression
+  
+  catboost:
+    iterations: 100
+    learning_rate: 0.1
+    depth: 6
+  
+  xgboost:
+    n_estimators: 100
+    max_depth: 6
+    learning_rate: 0.1
+  
+  random_forest:
+    n_estimators: 100
+    max_depth: 15
+
+# Model Paths
+models_path: "models/"
+model_filename: "best_model.pkl"
+
+# Feature Names
+features_path: "models/feature_columns.pkl"
+
+# Logging
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  handlers:
+    - console
+    - file
+  log_file: "logs/app.log"
