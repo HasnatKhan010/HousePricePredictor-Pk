@@ -1,0 +1,12 @@
+customtkinter
+pandas
+numpy
+scikit-learn
+pillow
+
+
+# Optional packages for notebook charts and advanced model comparison.
+matplotlib>=3.8
+seaborn>=0.13
+xgboost>=2.0
+catboost>=1.2
