@@ -33,8 +33,6 @@ This project implements a complete Machine Learning pipeline to predict resident
 - **Machine Learning**: Model training, hyperparameter tuning, and evaluation
 - **Software Engineering**: Production-ready GUI application with CustomTkinter
 
-**Developed as a final project for BCS-039 (SP24)** | Department of Computer Science
-
 ---
 
 ## 🌟 Key Features
@@ -239,7 +237,7 @@ HousePricePredictor-Pk/
 
 ## 🎓 Course Learning Outcomes
 
-This project covers the following CLOs from the course curriculum:
+This project covers key competencies in:
 
 | CLO | Description | Implementation |
 |-----|-------------|-----------------|
@@ -289,21 +287,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📧 Contact & Support
-
-- **Developer**: Hasnat Khan
-- **Student ID**: SP24-BCS-039
-- **Email**: hasnat.khan@student.com
-- **GitHub**: [@HasnatKhan010](https://github.com/HasnatKhan010)
-
----
-
 ## 🙏 Acknowledgments
 
 - **Zameen.com** for providing real estate data
 - **CustomTkinter** for the modern GUI framework
 - **CatBoost team** for the excellent gradient boosting library
-- Course instructors for guidance and support
 
 ---
 
