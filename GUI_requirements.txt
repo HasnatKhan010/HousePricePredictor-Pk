@@ -1,7 +1,0 @@
-Python 3.10+ recommended
-customtkinter
-numpy
-pandas
-scikit-learn
-tkinter (usually included with Python; on some Linux systems install python3-tk)
-zameen_islamabad.csv in the same folder as the script
